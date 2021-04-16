@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Switch
+comment0.text=\n\ \ class\ Switch\n\n\ @author\ Medjahed\ Ainouch\n\ @version\ 29/01/2019\n
+comment1.params=L
+comment1.target=Switch(Lightbulb)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Switch\n\ @param\ a\ Lightbulb\ to\ associate\ to\ the\ Switch\ \n
+comment2.params=
+comment2.target=void\ ChangeState()
+comment2.text=\n\ Switch\ the\ state\ of\ the\ associated\ Lightbulb\n
+numComments=3
