@@ -63,6 +63,3 @@ Open index.html and choose a package and the class you want to see
 
 * `>>>java SeaDisplayMain`
 
-## Create an archive :
-
-Nous avons eu un problème avec l'archive, notre appli.jar ne retrouve pas de methode main meme lorsque nous la definissons dans le manifest-ex. Les methodes Main fonctionnent lorsque l'on execute directement les fichiers Main.class et tous les tests fonctionnent.
