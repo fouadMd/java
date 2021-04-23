@@ -5,7 +5,7 @@
   Jeu de l'oie
 
 ## OJECTIFS DU PROJET
-  Le TP a pour objectifs de crée le jeu du pierre feuille ciseaux
+  Le TP a pour objectifs de crée le jeu de l'oie
 
 ## VERSION ou DATE:
   06/05/2019
