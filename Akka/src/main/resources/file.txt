@@ -1,0 +1,16 @@
+TP 3 – MapReduce avec Akka
+Le but de ce TP est de mettre en œuvre la technologie Akka.
+On souhaite mettre en œuvre d un service dit MapReduce qui permet d indexer de façon efficace 
+un grand volume de données. 
+Un tel service est utilisé par des librairies comme Hadoop qui sert de base pour 
+des moteurs de recherche et des systèmes de fichiers distribués.
+On  s intéresse  au dénombrement  des occurrences  des  mots  contenus dans  un  fichier texte.
+Pour cela,on divise la tâche de comptage en deux sous-tâches dites map et reduce, 
+implémentées  respectivement  par  des acteurs Mapper et Reducer. 
+Soit  l architecture  illustrée  dans  la figure suivante et contenant 1 acteur Master, 
+3 acteurs Mapper et 2 acteurs Reducer. 
+L acteur Master distribue les lignes du fichier alternativement à chaque objet Mapper. 
+À chaque solli-citation, l acteur Mapper identifie chaque mot de la ligne et transmet le mot à un des acteurs Reducer.
+Le  choix  de l acteur Reducer se  fait  à  l aide  d une  méthode partition que  vous fournirez 
+ et  qui  à  partir  d un  tableau  de Reducer et  d’un  mot retourne  la  référence  du Reducer à contacter pour ce mot. 
+ Chaque acteur Reducer additionne les décomptes qu il reçoit pour chaque mot.
